@@ -300,18 +300,21 @@
 
     <!-- About section -->
     <section id="about"
-      class="container d-flex flex-md-row gap-5 rounded card mt-5 pt-5">
-      <div class="d-flex flex-column p-5 gap-3 w-50">
-        <h2 class="h2 font-weight-bold">About
+      class="container d-flex flex-column flex-md-row justify-content-between mt-5 gap-4 rounded">
+
+      <!-- about myself text -->
+      <div
+        class="d-flex flex-column p-1 gap-2 gap-md-3 mt-5 mt-md-0 w-100 w-md-50">
+        <h2 class="h2 fw-bold">About
           Myself</h2>
-        <p class="h6 w-50">
+        <p class="h6">
           Hello I’m a software developer! I can help you
           build a
           product , feature or website Look through some of
           my work
           and experience! If you like what you see and have
           a project
-          you need coded, don’t hestiate to contact me.
+          you need coded, don’t hesitate to contact me.
         </p>
         <p class="text-secondary h6">Let's connect</p>
         <div class="d-flex justify-content-start">
@@ -345,21 +348,107 @@
           </ul>
         </div>
       </div>
-      <div
-        class="row g-2 d-flex flex-column flex-md-row h-90">
-        <div class="col-md-4 w-50 d-flex flex-column gap-5">
-          <p class="text-primary h4">Languages</p>
 
-          <ul
-            class="d-flex justify-content-start list-unstyled gap-5">
-            <li><i class="fab fa-js h1"></i></li>
-            <li><i class="fab fa-html5 h1"></i></li>
-            <li><i class="fab fa-css3-alt h1"></i></li>
-          </ul>
+      <!-- Accordions -->
 
-          <p class="text-primary h4">Frameworks</p>
+      <div class="accordion d-flex flex-column gap-3 w-100"
+        id="accordionExample">
 
-          <p class="text-primary h4">Skills</p>
+        <!-- accordion 1 -->
+        <div class="accordion-item">
+
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button fw-bold"
+              type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne">
+              Languages
+            </button>
+          </h2>
+
+          <div id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul
+                class="d-flex flex-column flex-md-row justify-content-md-center list-unstyled gap-4">
+                <li
+                  class="d-flex flex-row align-items-center bg-light">
+                  <i
+                    class="fab fa-js-square fa-4x fw-lighter text-warning p-2 bg-light">
+                  </i>
+                  <p class="text-dark fw-bold p-2 m-0">
+                    JavaScript
+                  </p>
+                </li>
+                <li
+                  class="d-flex flex-row align-items-center bg-light">
+                  <i
+                    class="fab fa-html5 fa-4x fw-lighter text-danger p-2 bg-light">
+                  </i>
+                  <p class="text-dark fw-bold p-2 m-0">
+                    HTML
+                  </p>
+                </li>
+                <li
+                  class="d-flex flex-row align-items-center bg-light">
+                  <i
+                    class="fab fa-css3-alt fa-4x fw-lighter text-info p-2 bg-light">
+                  </i>
+                  <p class="text-dark fw-bold p-2 m-0">
+                    CSS
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion 2 -->
+        <div class="accordion-item">
+
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button fw-bold collapsed"
+              type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo">
+              Frameworks
+            </button>
+          </h2>
+
+          <div id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button fw-bold collapsed"
+              type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree">
+              Skills
+            </button>
+          </h2>
+
+          <div id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            </div>
+          </div>
         </div>
       </div>
     </section>
