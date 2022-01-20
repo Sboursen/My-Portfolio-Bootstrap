@@ -1,6 +1,6 @@
 .headline-section {
   background-image: url("assets/Header-bg.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
-  background-size: bottom -10vh center;
+  background-size: 100vw 100%;
+  background-position: center bottom 10vh;
 }

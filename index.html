@@ -115,7 +115,7 @@
     data-bs-offset="0" class="scrollspy-example"
     tabindex="0">
 
-
+    <!-- works section -->
     <section id="portfolio"
       class="container d-flex flex-column justify-content-center gap-5 rounded">
       <div
@@ -302,11 +302,11 @@
 
     <!-- About section -->
     <section id="about"
-      class="container d-flex flex-column flex-md-row justify-content-between mt-5 gap-4 rounded">
+      class="container d-flex flex-column flex-md-row justify-content-between mt-5 mb-5 gap-5 rounded">
 
       <!-- about myself text -->
       <div
-        class="d-flex flex-column p-1 gap-2 gap-md-3 mt-5 mt-md-0 w-100 w-md-50">
+        class="d-flex flex-column p-1 gap-2 gap-md-5 mt-5 mt-md-0 w-100 w-md-50">
         <h2 class="h2 fw-bold">About
           Myself</h2>
         <p class="h6">
@@ -349,11 +349,15 @@
             </li>
           </ul>
         </div>
+        <button type="button"
+          class="btn btn-light text-primary me-auto border border-primary border-2 fw-bolder">Get
+          My Resume</button>
       </div>
 
       <!-- Accordions -->
 
-      <div class="accordion d-flex flex-column gap-3 w-100"
+      <div
+        class="accordion d-flex flex-column gap-2 gap-md-5 w-100"
         id="accordionExample">
 
         <!-- accordion 1 -->
@@ -456,9 +460,27 @@
     </section>
 
     <section id="contact"
-      class="container bg-primary text-light mt-5 p-5 d-flex align-items-center justify-content-center">
+      class="container-fluid bg-primary mt-5 p-3 pb-5 d-flex flex-column justify-content-center gap-5 rounded">
+      <!-- about myself text -->
+      <div
+        class="d-flex flex-column p-1 gap-2 gap-md-5 mt-5 w-100 w-sm-50 align-items-center">
+        <h2 class="h2 fw-bold">About
+          Myself</h2>
+        <p class="h6 w-75 ms-auto me-auto text-center">
+          Hello I’m a software developer! I can help you
+          build a
+          product , feature or website Look through some of
+          my work
+          and experience! If you like what you see and have
+          a project
+          you need coded, don’t hesitate to contact me.
+        </p>
+
+      </div>
+
+      <!-- form -->
       <form
-        class="d-flex flex-column gap-3 justify-content-center">
+        class="d-flex flex-column align-content-center gap-4 w--50 mb-4 ms-auto me-auto">
         <input placeholder="Full Name" type="name"
           class="form-control w-100" id="name">
         <input placeholder="Email" type="email"
@@ -468,7 +490,7 @@
           name="message" id="message" cols="30" rows="5"
           class="w-100 h-50 "></textarea>
         <button type="submit"
-          class="btn btn-light text-primary w-100">Submit</button>
+          class="btn btn-light text-primary w-25 me-auto ms-auto">Submit</button>
       </form>
 
     </section>
