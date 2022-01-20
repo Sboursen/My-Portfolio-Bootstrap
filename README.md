@@ -4,7 +4,7 @@
 
 > My Portfolio (Bootstrap v)
 
-![screenshot](assets\desktop-bootstrap.png)
+![screenshot](./assets/desktop-bootstrap.png)
 
 Additional description about the project and its features.
 
