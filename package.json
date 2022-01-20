@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio-bootstrap",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sboursen/My-Portfolio-Bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sboursen/My-Portfolio-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Sboursen/My-Portfolio-Bootstrap#readme",
+  "devDependencies": {
+    "hint": "^6.1.9",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-csstree-validator": "^2.0.0",
+    "stylelint-scss": "^4.1.0"
+  }
+}
