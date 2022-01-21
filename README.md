@@ -6,7 +6,6 @@
 
 ![screenshot](./assets/desktop-bootstrap.png)
 
-
 ## Built With
 
 - HTML
@@ -14,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sboursen.github.io/My-Portfolio-Bootstrap/)
 
 ## Authors
 
